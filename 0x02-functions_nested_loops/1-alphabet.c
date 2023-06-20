@@ -1,6 +1,6 @@
 /*
  * File: 1-alphabet.c
- * Auth: Brennan D Baraban
+ * Auth: Ihu Kingsley Ominyi
 */
 
 #include "main.h"
@@ -8,7 +8,7 @@
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
 */
-void print_alphabet(void)
+void printAlphabetLowercase(void)
 {
 	char letter;
 
@@ -16,4 +16,11 @@ void print_alphabet(void)
 		_putchar(letter);
 
 	_putchar('\n');
+}
+    printf("\n");
+}
+
+int main() {
+    printAlphabetLowercase();
+    return 0;
 }
